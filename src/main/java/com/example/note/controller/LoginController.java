@@ -10,13 +10,13 @@ public class LoginController {
 	 */
 	@RequestMapping(value = "/")
 	public String login() {
-		return "/login";
+		return "login";
 	/**
 	* redirect to login.html after logout
 	*/		
 	}
 	@RequestMapping(value = "/login")
 	public String loginout() {
-		return "/login";
+		return "login";
 	}
 }
