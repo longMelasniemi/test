@@ -51,7 +51,7 @@ public class UserController {
 	@RequestMapping(value = "/register")
 	public String addUser(Model model) {
 		model.addAttribute("registerform", new registerform());
-		return "/register";
+		return "register";
 	}
 	/**
 	 * Add new User to database
